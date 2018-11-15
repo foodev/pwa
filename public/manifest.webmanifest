@@ -1,0 +1,28 @@
+{
+    "lang": "de",
+    "dir": "ltr",
+
+    "name": "Progressive Web App",
+    "short_name": "PWA",
+    "description": "A simple progressive web app to practice.",
+
+    "start_url": "/",
+
+    "orientation": "portrait",
+    "display": "standalone",
+
+    "theme_color": "#00a88e",
+    "background_color": "#fff",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
