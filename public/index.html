@@ -12,18 +12,21 @@
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="icon" type="image/png" href="/icon-192.png">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
     <!-- JavaScript -->
     <script type="module" src="/javascript/app.js"></script>
 </head>
 
 <body>
-    Hello World!
+    <header>Hello World!</header>
 
-    <hr>
+    <main>
+        <button id="check-for-updates">Check for updates</button>
+        <button id="install-updates" hidden>Install updates</button>
 
-    <button id="check-for-updates">Check for updates</button>
-    <button id="install-updates" hidden>Install updates</button>
-
-    <button id="add-to-homescreen" hidden>Add Web App to Homescreen</button>
+        <button id="add-to-homescreen" hidden>Add Web App to Homescreen</button>
+    </main>
 </body>
 </html>

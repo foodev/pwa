@@ -21,6 +21,7 @@ self.addEventListener('install', function(event) {
                 '/manifest.webmanifest',
                 '/icon-192.png',
                 '/icon-512.png',
+                '/css/stylesheet.css',
                 '/javascript/app.js'
             ])
         })

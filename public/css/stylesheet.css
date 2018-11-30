@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 15px/1.2em sans-serif;
+}
+
+header {
+    background-color: #00a88e;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main button {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+}
