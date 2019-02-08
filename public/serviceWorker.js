@@ -1,6 +1,6 @@
 'use strict';
 
-const VERSION = '2.0.0';
+const VERSION = '2.0.1';
 const VERSION_MAJOR = parseInt(VERSION, 10);
 const CACHE_NAME_STATIC = 'pwa-static-' + VERSION_MAJOR;
 
